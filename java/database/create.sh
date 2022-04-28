@@ -1,5 +1,6 @@
 #!/bin/bash
-export PGPASSWORD='postgres1'
+SET client_encoding TO 'UTF8';
+export PGPASSWORD='postgres'
 BASEDIR=$(dirname $0)
 DATABASE=final_capstone
 psql -U postgres -f "$BASEDIR/dropdb.sql" &&

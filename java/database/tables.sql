@@ -200,7 +200,7 @@ INSERT INTO recipes (recipe_name, ingredients, directions, calories, is_low_fat,
 INSERT INTO recipes (recipe_name, ingredients, directions, calories, is_low_fat, is_high_protein, is_low_carb, is_low_sodium, is_breakfast, is_lunch, is_dinner, img)
 	VALUES('Turkey Soup',
 		  '1 Turkey, 2 1/2 cups turkey stuffing, 2 cups turkey gravy, 3 carrots, 3 ribs of celery, 1 onion, 1/2 cup fresh parsley, 1 bay leaf, 2 tsp. dried thyme, salt',
-		  'Put all the ingredients with 10 cups the water into a large soup pot over medium heat, bring to a boil, and then reduce the heat to a simmer. Stir to break up all the clumps of stuffing and mix well. Let the soup simmer for about 1 1⁄2 hours. Add another 1 1⁄2 cups of cold water and let simmer for 10 more minutes. Taste for salt and adjust the flavoring if necessary. Serve hot.',
+		  'Put all the ingredients with 10 cups the water into a large soup pot over medium heat, bring to a boil, and then reduce the heat to a simmer. Stir to break up all the clumps of stuffing and mix well. Let the soup simmer for about 1 1/2 hours. Add another 1 1/2 cups of cold water and let simmer for 10 more minutes. Taste for salt and adjust the flavoring if necessary. Serve hot.',
 		  840, true, true, true, false, false, true, true, 'https://dinnerthendessert.com/wp-content/uploads/2019/11/Turkey-Soup-4.jpg');
 		  
 INSERT INTO recipes (recipe_name, ingredients, directions, calories, is_low_fat, is_high_protein, is_low_carb, is_low_sodium, is_breakfast, is_lunch, is_dinner, img)
@@ -211,7 +211,7 @@ INSERT INTO recipes (recipe_name, ingredients, directions, calories, is_low_fat,
 
 INSERT INTO recipes (recipe_name, ingredients, directions, calories, is_low_fat, is_high_protein, is_low_carb, is_low_sodium, is_breakfast, is_lunch, is_dinner, img)
 	VALUES('Banana Oatmeal Pancakes',
-		   '3 small bananas very ripe, 2 tablespoons meltedbutter or coconut oil, 1 tablespoon lemon juice, 2 eggs,1 cup rolled oats,1⁄2 teaspoon salt,1⁄2 teaspoon baking soda, 1⁄2 teaspoon cinnamon, 1⁄4 teaspoon nutmeg',
+		   '3 small bananas very ripe, 2 tablespoons meltedbutter or coconut oil, 1 tablespoon lemon juice, 2 eggs,1 cup rolled oats,1/2 teaspoon salt,1/2 teaspoon baking soda, 1/2 teaspoon cinnamon, 1/4 teaspoon nutmeg',
 		   'Place oats in a blender or food processor and pulse until they are ground into a fine meal or flour-like consistency. In a large bowl, using a fork, mash the bananas until well combined. Add melted butter or coconut oil, lemon juice and eggs, and whisk until well combined. Add ground oats, salt, baking soda, cinnamon and nutmeg and mix until well combined. Once mixed, allow the batter to sit for at least 10 minutes. Depending on the size of your bananas, you may need to thin out the batter a bit with a splash of milk. Heat a griddle or pan to medium heat, add a knob of butter, and then pour 1/4 cup of batter onto the pan. Allow to cook for about 3 minutes or until bubbles begin to form on the surface, then carefully flip with a spatula and cook for another 1-2 minutes or until golden. Serve pancakes immediately or keep warm in the oven at 200°F until ready to serve.',
 			116, true, false, false, true, true, false ,false, 'https://kaynutrition.com/wp-content/uploads/2021/03/banana-oatmeal-pancakes-150x150.jpg');	
 		   

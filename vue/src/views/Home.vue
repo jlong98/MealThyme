@@ -6,8 +6,8 @@
     </div>
     <div class="router-links">
       <router-link class="my-recipes" v-bind:to="{ name: 'my-recipes' }" v-if="$store.state.token != ''">My<br>Recipes<br><br><img class="recipes" :src="require(`@/images/recipesbrown.png`)" /></router-link>
-      <router-link class="my-plans-home" v-bind:to="{ name: 'my-plans'}" v-if="$store.state.token != ''">My<br>Plans<br><br><img class="calendar" :src="require(`@/images/calendar.png`)" /></router-link>
-      <router-link class="groceries" v-bind:to="{name: 'groceries-list'}" v-if="$store.state.token != ''">Grocery<br>Lists<br><br><img class="grocery-list" :src="require(`@/images/grocerylist.png`)" /></router-link>
+      <router-link class="my-plans-home" v-bind:to="{ name: 'my-plans'}" v-if="$store.state.token != ''">My<br>Plans<br><br><img class="calendar" :src="require(`@/images/calendar (1).png`)" /></router-link>
+      <router-link class="groceries" v-bind:to="{name: 'groceries-list'}" v-if="$store.state.token != ''">Grocery<br>Lists<br><br><img class="grocery-list" :src="require(`@/images/grocerylist (1).png`)" /></router-link>
     </div>
   </div>
 </template>
