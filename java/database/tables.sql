@@ -297,6 +297,8 @@ INSERT INTO recipes (recipe_name, ingredients, directions, calories, is_low_fat,
 	'Mash the banana with a fork. In a bowl mix the flour, mashed banana, melted coconut oil, milk, and water to a homogenous mixture. Add more water, if the batter is too thick. In a pan heat a bit of coconut oil and fry the pancakes on medium heat until they are gold brown on both sides. Cook in batches, as needed. Serve topped with berries, coconut, and honey.', 
 	640, true, false, false, true, true, false, false, 'https://images.eatthismuch.com/img/233395_margaritaencv_ba53b749-96c8-4e3d-bad4-143b486837ea.png');
 
+INSERT INTO recipes (recipe_name, ingredients, directions, calories, is_low_fat, is_high_protein, is_low_carb, is_low_sodium, is_breakfast, is_lunch, is_dinner, img) 
+	VALUES ('Create Recipe','','',0,false,false,false,false,false,false,false,'https://esquilo.io/png/thumb/mX6viw6nDsjWuBH-Question-Mark-PNG-File.png');
 
 --select * from recipes
 
