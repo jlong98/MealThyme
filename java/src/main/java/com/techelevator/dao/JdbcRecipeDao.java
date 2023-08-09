@@ -137,6 +137,11 @@ public class JdbcRecipeDao implements RecipeDao {
         return recipesInMeal;
     }
 
+    public void removeRecipe(Long recipeId) {
+        String sql = "DELETE FROM recipes WHERE recipe_id = ?";
+        jdbcTemplate.update(sql, recipeId);
+    }
+
     @Override
     public void updateRecipe(Recipe recipe) {
         String sql = "INSERT INTO recipes VALUES(DEFAULT,?,?,?,?,?,?,?,?,?,?,?,?)";

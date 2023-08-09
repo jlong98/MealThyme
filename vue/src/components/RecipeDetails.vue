@@ -4,6 +4,7 @@
       <h2 class="recipe-name">
         {{ recipe.name }}
         <router-link :to="{name: 'recipe-update',params: {recipe : recipe}}"><button class="edit-button">Edit</button></router-link>
+        <router-link :to="{name: 'all-recipes'}"><button class="remove-button" v-on:click="deleteRecipe(recipe.recipeId)">Remove</button></router-link>
       </h2>
     </div>
     <div>
@@ -50,6 +51,12 @@ export default {
       RecipeService.getRecipe(this.$route.params.id).then(response => {
         this.recipe = response.data;
       });
+    },
+    methods: {
+        deleteRecipe(recipeId) {
+            this.isSaved = !this.isSaved;
+            RecipeService.removeRecipe(recipeId);
+        }
     }
 
 }
@@ -76,6 +83,14 @@ export default {
 }
 
 .edit-button {
+    background-color: #db93b0;
+    color: white;
+    border-color: #db93b0;
+    font-size: 18px; 
+    transition-duration: 0.4s;
+}
+
+.remove-button {
     background-color: #db93b0;
     color: white;
     border-color: #db93b0;

@@ -20,6 +20,8 @@ public interface RecipeDao {
 
     void updateRecipe(Recipe recipe);
 
+    void removeRecipe(Long recipeId);
+
     List<Recipe> findRecipesBySaved(Long userId);
 
     void addSavedRecipe(Long recipeId,Long userId);

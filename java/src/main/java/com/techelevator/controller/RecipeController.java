@@ -52,6 +52,11 @@ public class RecipeController {
         recipeDao.updateRecipe(recipe);
     }
 
+    @RequestMapping(path = "/removeRecipe/{recipeId}", method = RequestMethod.DELETE)
+    public void removeRecipe(@PathVariable Long recipeId) {
+        recipeDao.removeRecipe(recipeId);
+    }
+
     @RequestMapping(path = "recipes/user/{userId}/{recipeId}", method = RequestMethod.POST)
     public void addSavedRecipe(@PathVariable Long recipeId,@PathVariable Long userId){
         recipeDao.addSavedRecipe(recipeId,userId);

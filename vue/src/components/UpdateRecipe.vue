@@ -16,6 +16,10 @@
               <label for="ingredients">Ingredients: </label>
               <textarea id="ingredients-box" type="text" v-model="recipe.ingredients"/>
           </div>
+          <div class="image-url">
+              <label for="imageUrl">Image URL: </label>
+              <textarea id="image-box" type="text" v-model="recipe.image"/>
+          </div>
           <div class="submit-field">
               <router-link :to="{name: 'all-recipes'}"><button type="submit" v-on:click="sendUpdatedRecipe()">Submit</button></router-link>
           </div>
@@ -115,6 +119,11 @@ export default {
 #ingredients-box {
     width: 500px;
     height: 150px;
+}
+
+#image-box {
+    width: 500px;
+    height: 50px;
 }
 
 </style>
